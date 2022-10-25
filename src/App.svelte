@@ -60,7 +60,7 @@
             </span>
           </a>
 
-          <a href="" class="social__item link" target="_blank" rel="noreferrer">
+          <a href="https://portfolio.supakorn.dev" class="social__item link" target="_blank" rel="noreferrer">
             <span class="icon-font">
               <svg class="icon">
                 <use xlink:href="#icon-link"></use>
