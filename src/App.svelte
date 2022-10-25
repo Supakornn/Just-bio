@@ -1,14 +1,19 @@
 <script>
   import "./app.scss";
+  let audio = new Audio("https://cdn.discordapp.com/attachments/1032670881039786045/1034269686394789929/blueface.mp4");
+  const playaudio = () => {
+    audio.play();
+    audio.volume = 0.1;
+  };
 </script>
 
-<main class="relative overflow-x-hidden">
-  <div class="wrapper w-full h-auto min-h-screen px-14 py-6 pt-28 flex">
-    <div class="card js-card bg-white m-auto w-fit rounded-2xl relative ">
+<main>
+  <div class="wrapper w-full h-auto min-h-screen px-14  py-6 pt-28 flex">
+    <div class="card bg-white m-auto w-fit rounded-2xl relative ">
       <div class="card__img w-44 h-44 mx-auto rounded-full overflow-hidden relative z-10 ">
         <img src="https://cdn.discordapp.com/attachments/1032670881039786045/1034257202137018368/DB03DAE9-C209-4AD1-A517-92B891879F39.jpg" alt="profile card" class="w-full h-full block object-cover rounded-full">
       </div>
-      <div class="card__head js-card-head -mt-16 text-center py-0 px-6 pb-12">
+      <div class="card__body -mt-16 text-center py-0 px-6 pb-5">
         <div class="card__name font-bold text-3xl mb-4 ">Supakorn Ieamgomol</div>
         <div class="card__txt text-xl font-medium mb-4">Student, Developer</div>
         <div class="card-loc flex justify-center items-center text-xl font-semibold ">
@@ -21,7 +26,7 @@
               Thailand
             </span>
         </div>
-        <div class="card-social flex justify-center items-center flex-wrap mt-10">
+        <div class="card-social flex justify-center items-center flex-wrap mt-5 mb-10">
           <a href="https://www.facebook.com/spkngap" class="social__item facebook" target="_blank" rel="noreferrer">
             <span class="icon-font">
               <svg class="icon">
@@ -62,7 +67,16 @@
               </svg>
             </span>
           </a>
-  
+        </div>
+        <div class="webring flex justify-center">
+          <a href="https://webring.wonderful.software#supakorn.dev" title="วงแหวนเว็บ">
+            <img
+              alt="วงแหวนเว็บ"
+              width="32"
+              height="32"
+              src="https://webring.wonderful.software/webring.black.svg"
+            />
+          </a>
         </div>
       </div>
     </div>

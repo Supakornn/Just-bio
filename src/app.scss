@@ -35,7 +35,7 @@ a:hover {
   min-height: 460px;
   box-shadow: 0px 8px 60px -10px rgba(245, 245, 245, 0.6);
   .active {
-    .card__head {
+    .card__body {
       filter: blur(6px);
     }
   }
@@ -52,7 +52,7 @@ a:hover {
     width: 120px;
     height: 120px;
   }
-  .card__head {
+  .card__body {
     transition: all 0.3s;
   }
 }
