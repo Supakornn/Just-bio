@@ -26,7 +26,7 @@
               Thailand
             </span>
         </div>
-        <div class="card-social flex justify-center items-center flex-wrap mt-5 mb-10">
+        <div class="card-social flex justify-center items-center flex-wrap mt-16 mb-10">
           <a href="https://www.facebook.com/spkngap" class="social__item facebook" target="_blank" rel="noreferrer">
             <span class="icon-font">
               <svg class="icon">
@@ -66,16 +66,6 @@
                 <use xlink:href="#icon-link"></use>
               </svg>
             </span>
-          </a>
-        </div>
-        <div class="webring flex justify-center">
-          <a href="https://webring.wonderful.software#supakorn.dev" title="วงแหวนเว็บ">
-            <img
-              alt="วงแหวนเว็บ"
-              width="32"
-              height="32"
-              src="https://webring.wonderful.software/webring.black.svg"
-            />
           </a>
         </div>
       </div>
