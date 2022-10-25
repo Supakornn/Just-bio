@@ -67,7 +67,7 @@
       </div>
     </div>
   </div>
-  <svg hidden="hidden">
+  <svg hidden>
     <defs>
       <symbol id="icon-codepen" viewBox="0 0 32 32">
         <title>codepen</title>
