@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+
+html {
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #324e63;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  background-image: linear-gradient(-20deg, #000000 0%, #333333 100%);
+  @media screen and (max-width: 768px) {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 100px;
+  }
+}
+
+.card {
+  min-height: 460px;
+  box-shadow: 0px 8px 60px -10px rgba(245, 245, 245, 0.6);
+  .active {
+    .card__head {
+      filter: blur(6px);
+    }
+  }
+
+  .card__name {
+    color: #101010;
+  }
+
+  .card__img {
+    transform: translateY(-50%);
+    box-shadow: 0px 5px 50px 0px #dddddd, 0px 0px 0px 7px #808080;
+  }
+  @media screen and (max-width: 576px) {
+    width: 120px;
+    height: 120px;
+  }
+  .card__head {
+    transition: all 0.3s;
+  }
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.social__item {
+  display: inline-flex;
+  width: 55px;
+  height: 55px;
+  margin: 15px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #405de6;
+  box-shadow: 0px 7px 30px rgba(43, 98, 169, 0.5);
+  position: relative;
+  font-size: 21px;
+  flex-shrink: 0;
+  transition: all 0.3s;
+
+  @media screen and (max-width: 768px) {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &.facebook {
+    background: linear-gradient(45deg, #3b5998, #0078d7);
+    box-shadow: 0px 4px 30px rgba(43, 98, 169, 0.5);
+  }
+
+  &.twitter {
+    background: linear-gradient(45deg, #1da1f2, #0e71c8);
+    box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
+  }
+
+  &.instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
+  }
+
+  &.behance {
+    background: linear-gradient(45deg, #1769ff, #213fca);
+    box-shadow: 0px 4px 30px rgba(27, 86, 231, 0.7);
+  }
+
+  &.github {
+    background: linear-gradient(45deg, #333333, #626b73);
+    box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
+  }
+
+  &.codepen {
+    background: linear-gradient(45deg, #324e63, #414447);
+    box-shadow: 0px 4px 30px rgba(55, 75, 90, 0.6);
+  }
+
+  &.link {
+    background: linear-gradient(45deg, #d5135a, #f05924);
+    box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.6);
+  }
+}
+
+.icon-font {
+  display: inline-flex;
+}
