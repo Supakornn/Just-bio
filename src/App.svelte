@@ -43,7 +43,7 @@
             </span>
           </a>
           
-          <a href="https://twitter.com/H3XxT_" class="social__item twitter" target="_blank" rel="noreferrer">
+          <a href="https://twitter.com/Gapxh_" class="social__item twitter" target="_blank" rel="noreferrer">
             <span class="icon-font">
               <svg class="icon">
                 <use xlink:href="#icon-twitter"></use>
