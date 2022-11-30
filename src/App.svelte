@@ -52,7 +52,7 @@
           </a>
   
  
-          <a href="https://github.com/H3XxT" class="social__item github" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Gapxh" class="social__item github" target="_blank" rel="noreferrer">
             <span class="icon-font">
               <svg class="icon">
                 <use xlink:href="#icon-github"></use>
