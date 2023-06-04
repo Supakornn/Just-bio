@@ -11,7 +11,7 @@
   <div class="wrapper w-full h-auto min-h-screen px-14  py-6 pt-28 flex">
     <div class="card bg-white m-auto w-fit rounded-2xl relative ">
       <div class="card__img w-44 h-44 mx-auto rounded-full overflow-hidden relative z-10 ">
-        <img src="https://cdn.discordapp.com/attachments/1032670881039786045/1034257202137018368/DB03DAE9-C209-4AD1-A517-92B891879F39.jpg" alt="profile card" class="w-full h-full block object-cover rounded-full">
+        <img src="https://cdn.discordapp.com/attachments/1032670881039786045/1114822157109837844/IMG_6194.jpg" alt="profile card" class="w-full h-full block object-cover rounded-full">
       </div>
       <div class="card__body -mt-16 text-center py-0 px-6 pb-5">
         <div class="card__name font-bold text-3xl mb-4 ">Supakorn Ieamgomol</div>
