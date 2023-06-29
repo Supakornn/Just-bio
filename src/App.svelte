@@ -1,10 +1,5 @@
 <script>
   import "./app.scss";
-  let audio = new Audio("https://cdn.discordapp.com/attachments/1032670881039786045/1034269686394789929/blueface.mp4");
-  const playaudio = () => {
-    audio.play();
-    audio.volume = 0.1;
-  };
 </script>
 
 <main>
